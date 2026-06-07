@@ -5,29 +5,36 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: auto !important;
-}
-
-body {
-  background: #000;
-  color: #e8ddd0;
-  font-family: 'Space Mono', monospace;
-  overflow-x: hidden;
-}
-
-/* FIX: Changed from relative to fixed.
-   This locks the video engine perfectly onto the viewport screen.
+/* FREEZE LAYOUT CONTAINER: Prevents standard device scrolling 
+   while allowing virtual inputs to stream down cleanly.
 */
-#scroll-driver {
+html, body {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Fixed Background Video Layer Group */
+#scroll-driver {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: 1;
-  pointer-events: none; /* Allows user scroll interactions to pass directly to content */
-  will-change: transform;
+  pointer-events: none;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 #stage {
@@ -42,13 +49,15 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) translateZ(0);
+  -webkit-transform: translate(-50%, -50%) translateZ(0);
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
   object-fit: cover;
-  will-change: current-time;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 /* Atmospheric Ambient Overlays */
@@ -68,15 +77,6 @@ body {
   pointer-events: none;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 128px;
-}
-
-#enter-flash {
-  position: absolute;
-  inset: 0;
-  background: #fff8e8;
-  z-index: 15;
-  opacity: 0;
-  pointer-events: none;
 }
 
 /* Scroll Indicators */
@@ -159,16 +159,21 @@ body {
   color: #fff;
 }
 
-/* --- GLASSMORPHISM OVERLAY PIPELINE --- */
+/* --- VIRTUAL TRANSLATION PIPELINE --- */
 
 #content {
-  position: relative;
+  position: absolute;
+  top: 100vh; /* Sits cleanly beneath the viewport horizon line initially */
+  left: 0;
+  width: 100%;
   z-index: 50;
-  padding-top: 600vh;
-  margin-top: 100vh;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.8s ease;
+  transition: opacity 0.5s ease;
+  background: transparent;
+  
+  /* Forces rendering layers onto independent compositor tracks */
+  will-change: transform;
 }
 
 #content.visible {
