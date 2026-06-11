@@ -33,7 +33,7 @@
 
   function updateLayoutBounds() {
     contentHeight = content.offsetHeight;
-    maxTotalVirtualRange = maxVideoScrollRange + (contentHeight - window.innerHeight);
+    maxTotalVirtualRange = maxVideoScrollRange + contentHeight;
   }
 
   // INTERCEPT COGNITIVE WHEEL EVENTS
