@@ -1,9 +1,7 @@
 /**
  * Steady-Pace Virtual Scroll Accumulator Engine
- * Bypasses native browser document scroll pipelines to enforce strict speed limits.
  */
 (function () {
-  // Force reset baseline window views on load execution
   if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
   }
@@ -20,45 +18,46 @@
   function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
   function invlerp(a, b, v) { return clamp((v - a) / (b - a), 0, 1); }
 
-  // Virtual Scroll Tracking Channels
+  // Virtual Tracking Framework Channels
   let virtualScrollY = 0;
   let targetVirtualScrollY = 0;
-  let maxVideoScrollRange = window.innerHeight * 3; // Virtual space allocation for track transitions
-  let contentHeight = 0;
+  let maxVideoScrollRange = window.innerHeight * 3.5; 
   let maxTotalVirtualRange = 0;
 
-  // STRICT VELOCITY CONTROLS
-  const FRAME_STEP_SPEED = 6; // Maximum virtual pixels the engine can crawl per animation frame
-  const WHEEL_SENSITIVITY = 0.4; // Softens input multipliers
+  // STRICT PACING SPEEDS
+  const FRAME_STEP_SPEED = 12; 
+  const WHEEL_SENSITIVITY = 0.45;
 
   function updateLayoutBounds() {
-    contentHeight = content.offsetHeight;
-    maxTotalVirtualRange = maxVideoScrollRange + (contentHeight - window.innerHeight);
+    // Capture the absolute rendering height footprint of your element layers
+    const originalDisplay = content.style.display;
+    content.style.display = 'block';
+    const trueContentHeight = content.scrollHeight;
+    content.style.display = originalDisplay;
+
+    // Boundary range targets the track limits flawlessly
+    maxTotalVirtualRange = maxVideoScrollRange + (trueContentHeight - window.innerHeight);
   }
 
-  // INTERCEPT COGNITIVE WHEEL EVENTS
+  // Intercept scroll wheel events
   window.addEventListener("wheel", (e) => {
-    e.preventDefault(); // Lock down native browser layout viewport jumps
-    
-    // Normalize direction indicator delta properties across browsers
+    e.preventDefault();
     const direction = Math.sign(e.deltaY);
-    
-    // Increment target layout tracking coordinates by strict steady bounds
     targetVirtualScrollY += direction * 120 * WHEEL_SENSITIVITY;
     targetVirtualScrollY = clamp(targetVirtualScrollY, 0, maxTotalVirtualRange);
   }, { passive: false });
 
-  // MOBILE INTERCEPT TOUCH MECHANICS
+  // Intercept touch movements
   let touchStartY = 0;
   window.addEventListener("touchstart", (e) => {
     touchStartY = e.touches[0].clientY;
   }, { passive: true });
 
   window.addEventListener("touchmove", (e) => {
-    e.preventDefault(); // Stop mobile elastic rebound bouncing actions
+    e.preventDefault();
     const currentTouchY = e.touches[0].clientY;
     const deltaY = touchStartY - currentTouchY;
-    touchStartY = currentTouchY; // Continually reset tracking base coordinates
+    touchStartY = currentTouchY;
 
     targetVirtualScrollY += deltaY * 1.5;
     targetVirtualScrollY = clamp(targetVirtualScrollY, 0, maxTotalVirtualRange);
@@ -86,32 +85,27 @@
     const diff = targetVirtualScrollY - virtualScrollY;
 
     if (Math.abs(diff) > 0.1) {
-      // Enforce absolute maximum velocity parameters per paint cycle
       const step = clamp(diff, -FRAME_STEP_SPEED, FRAME_STEP_SPEED);
       virtualScrollY += step;
     } else {
       virtualScrollY = targetVirtualScrollY;
     }
 
-    // Isolate calculation parameters for video tracking segments
     const videoProg = clamp(virtualScrollY / maxVideoScrollRange, 0, 1);
     const vidT = videoProg * DURATION;
 
-    // Direct performance seek tracking guard line
+    // Chrome seeking queue protection guard
     if (!video.seeking && video.readyState >= 1) {
       video.currentTime = vidT;
     }
 
-    // Scroll hint handling
     if (scrollHint) {
       scrollHint.style.opacity = 1 - ease(invlerp(0, 0.15, videoProg));
     }
 
-    // STAGE TWO: If video is done, handle smooth layout translation transformations
-    if (videoProg >= 1) {
+    // Handles the sliding translation transitions perfectly without early cut-offs
+    if (videoProg >= 0.99) {
       const contentScrollOffset = virtualScrollY - maxVideoScrollRange;
-      
-      // Shift overlay pane vertically across display limits smoothly
       content.style.transform = `translateY(${-contentScrollOffset}px)`;
       content.classList.add("visible");
       nav.classList.add("visible");

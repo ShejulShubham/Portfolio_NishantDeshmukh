@@ -5,9 +5,7 @@
   padding: 0;
 }
 
-/* FREEZE LAYOUT CONTAINER: Prevents standard device scrolling 
-   while allowing virtual inputs to stream down cleanly.
-*/
+/* FREEZE NATIVE SCROLLBAR MECHANICS */
 html, body {
   position: fixed;
   top: 0;
@@ -24,7 +22,14 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* Fixed Background Video Layer Group */
+body {
+  background: #000;
+  color: #e8ddd0;
+  font-family: 'Space Mono', monospace;
+  overflow-x: hidden;
+}
+
+/* Fixed Background Video Containers */
 #scroll-driver {
   position: absolute;
   top: 0;
@@ -159,20 +164,18 @@ body::-webkit-scrollbar {
   color: #fff;
 }
 
-/* --- VIRTUAL TRANSLATION PIPELINE --- */
+/* --- THE VIRTUAL PIPELINE REVEAL SYSTEMS --- */
 
 #content {
   position: absolute;
-  top: 100vh; /* Sits cleanly beneath the viewport horizon line initially */
+  top: 100vh; /* Perfectly sets below viewport bounds during video track run */
   left: 0;
   width: 100%;
   z-index: 50;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.6s ease-in-out;
   background: transparent;
-  
-  /* Forces rendering layers onto independent compositor tracks */
   will-change: transform;
 }
 

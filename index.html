@@ -1,155 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nishant Deshmukh</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishant Deshmukh</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="public/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="public/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png" />
 
-    <!-- Typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Scroll-driven Cinematic Background -->
-    <div id="scroll-driver">
-      <div id="stage">
-        <video id="scene-video" muted playsinline preload="auto">
-          <source src="public/optimized_scroll_video.webm" type="video/webm" />
-          <source
-            src="public/Wan_Video_Generate_A_smooth_cinematic_camera_journey_starting_from.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-        <div id="vignette"></div>
-        <div id="grain"></div>
-        <!-- <div id="enter-flash"></div> -->
-        <div id="scroll-hint">
-          <span>scroll to enter</span>
-          <div class="sh-line"></div>
-        </div>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="scroll-driver">
+    <div id="stage">
+      <video id="scene-video" muted playsinline preload="auto">
+        <source src="public/optimized_scroll_video.webm" type="video/webm" />
+        <source src="public/Wan_Video_Generate_A_smooth_cinematic_camera_journey_starting_from.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div id="vignette"></div>
+      <div id="grain"></div>
+      <div id="scroll-hint">
+        <span>scroll to enter</span>
+        <div class="sh-line"></div>
       </div>
     </div>
+  </div>
 
-    <!-- Global Navigation -->
-    <nav id="nav">
-      <div class="nav-name">Nishant Deshmukh</div>
-      <div class="nav-links">
-        <a href="#about">about</a>
-        <a href="#projects">work</a>
-        <a href="#contact">contact</a>
-      </div>
-    </nav>
+  <nav id="nav">
+    <div class="nav-name">Nishant Deshmukh</div>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#projects">work</a>
+      <a href="#contact">contact</a>
+    </div>
+  </nav>
 
-    <!-- Main Content Structure -->
-    <div id="content">
-      <div class="glass-panel">
-        <div class="c-hero">
-          <div class="c-hero-inner">
-            <h2 class="c-name">HELLO! IM <em>NISHANT DESHMUKH</em></h2>
-            <p class="c-body hero-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.
-            </p>
-          </div>
-        </div>
-
-        <section class="c-section" id="about">
-          <div class="c-eyebrow">&#8212; about me</div>
-          <h2 class="c-heading">Building things that matter</h2>
-          <p class="c-body">
-            I build clean, purposeful digital experiences &mdash; from
-            pixel-perfect interfaces to thoughtful backend systems. When I'm not
-            writing code I'm sketching ideas, drinking too much coffee, and
-            chasing the next interesting problem.
-          </p>
-        </section>
-
-        <section class="c-section" id="projects">
-          <h2 class="c-heading design-title">PROJECTS</h2>
-          <p class="c-body cards-intro">
+  <div id="content">
+    <div class="glass-panel">
+      <div class="c-hero">
+        <div class="c-hero-inner">
+          <h2 class="c-name">HELLO! IM <em>NISHANT DESHMUKH</em></h2>
+          <p class="c-body hero-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore tempor incididunt.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
           </p>
-
-          <div class="c-grid">
-            <div class="glass-card">
-              <div class="c-card-num">01</div>
-              <div class="c-card-title">Project Alpha</div>
-              <div class="c-card-desc">
-                Full-stack web application solving real problems with elegant
-                design and robust architecture.
-              </div>
-              <div class="c-tags">
-                <span class="c-tag">React</span
-                ><span class="c-tag">Node.js</span>
-              </div>
-            </div>
-            <div class="glass-card">
-              <div class="c-card-num">02</div>
-              <div class="c-card-title">Project Beta</div>
-              <div class="c-card-desc">
-                Mobile-first design system and component library across multiple
-                production products.
-              </div>
-              <div class="c-tags">
-                <span class="c-tag">TypeScript</span
-                ><span class="c-tag">Figma</span>
-              </div>
-            </div>
-            <div class="glass-card">
-              <div class="c-card-num">03</div>
-              <div class="c-card-title">Project Gamma</div>
-              <div class="c-card-desc">
-                Data visualization dashboard surfacing key insights from complex
-                high-volume data streams.
-              </div>
-              <div class="c-tags">
-                <span class="c-tag">Python</span
-                ><span class="c-tag">D3.js</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="c-section" id="contact">
-          <div class="c-eyebrow">&#8212; get in touch</div>
-          <h2 class="c-heading">Let's work together</h2>
-          <div class="glass-card contact-box">
-            <p
-              style="
-                font-size: 0.72rem;
-                color: rgba(232, 221, 208, 0.6);
-                letter-spacing: 0.05em;
-                margin-bottom: 1.5rem;
-              "
-            >
-              Have a project in mind? I'd love to hear about it.
-            </p>
-            <a href="mailto:nishant@example.com" class="c-email"
-              >nishant@example.com</a
-            >
-          </div>
-        </section>
-
-        <div class="c-footer">&copy; 2026 Nishant Deshmukh</div>
+        </div>
       </div>
-    </div>
 
-    <!-- Custom Logic Execution -->
-    <script src="script.js"></script>
-  </body>
+      <section class="c-section" id="about">
+        <div class="c-eyebrow">&#8212; about me</div>
+        <h2 class="c-heading">Building things that matter</h2>
+        <p class="c-body">
+          I build clean, purposeful digital experiences &mdash; from
+          pixel-perfect interfaces to thoughtful backend systems. When I'm not
+          writing code I'm sketching ideas, drinking too much coffee, and
+          chasing the next interesting problem.
+        </p>
+      </section>
+
+      <section class="c-section" id="projects">
+        <h2 class="c-heading design-title">PROJECTS</h2>
+        <p class="c-body cards-intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore tempor incididunt.
+        </p>
+
+        <div class="c-grid">
+          <div class="glass-card">
+            <div class="c-card-num">01</div>
+            <div class="c-card-title">Project Alpha</div>
+            <div class="c-card-desc">
+              Full-stack web application solving real problems with elegant
+              design and robust architecture.
+            </div>
+            <div class="c-tags">
+              <span class="c-tag">React</span>
+              <span class="c-tag">Node.js</span>
+            </div>
+          </div>
+          <div class="glass-card">
+            <div class="c-card-num">02</div>
+            <div class="c-card-title">Project Beta</div>
+            <div class="c-card-desc">
+              Mobile-first design system and component library across multiple
+              production products.
+            </div>
+            <div class="c-tags">
+              <span class="c-tag">TypeScript</span>
+              <span class="c-tag">Figma</span>
+            </div>
+          </div>
+          <div class="glass-card">
+            <div class="c-card-num">03</div>
+            <div class="c-card-title">Project Gamma</div>
+            <div class="c-card-desc">
+              Data visualization dashboard surfacing key insights from complex
+              high-volume data streams.
+            </div>
+            <div class="c-tags">
+              <span class="c-tag">Python</span>
+              <span class="c-tag">D3.js</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-section" id="contact">
+        <div class="c-eyebrow">&#8212; get in touch</div>
+        <h2 class="c-heading">Let's work together</h2>
+        <div class="glass-card contact-box">
+          <p style="font-size: 0.72rem; color: rgba(232, 221, 208, 0.6); letter-spacing: 0.05em; margin-bottom: 1.5rem;">
+            Have a project in mind? I'd love to hear about it.
+          </p>
+          <a href="mailto:nishant@example.com" class="c-email">nishant@example.com</a>
+        </div>
+      </section>
+
+      <div class="c-footer">&copy; 2026 Nishant Deshmukh</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
