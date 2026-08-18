@@ -7,17 +7,17 @@ const sharp = require('sharp');
 // Configuration
 const CONFIG = {
   js: {
-    input: 'script.js',
-    output: 'script.min.js'
+    input: 'src/js/script.js',
+    output: 'dist/script.min.js'
   },
   css: {
-    input: 'style.css',
-    output: 'style.min.css'
+    input: 'src/css/style.css',
+    output: 'dist/style.min.css'
   },
   images: {
-    inputDir: 'images',
+    inputDir: 'src/raw-images',
     outputDir: path.join('assets', 'images'),
-    quality: 80 // WebP compression quality (0-100)
+    quality: 80
   }
 };
 

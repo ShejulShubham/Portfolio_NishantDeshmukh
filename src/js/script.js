@@ -1,5 +1,6 @@
 /* ---------- asset path config ---------- */
 const ASSETS_BASE = 'assets/images/';
+const VIDEOS_BASE = 'assets/videos/';
 
 const DATA = {
   "images": {
@@ -725,7 +726,7 @@ const DATA = {
       "title": "The Journey, The South Goa Voyage",
       "client": "Yacht Life Goa",
       "group": "series",
-      "src": "videos/asset_190.mp4",
+      "src": "asset_190.mp4",
       "poster": "asset_191.webp",
       "desc": "This was a three-day journey that I shaped into a four-part reel series rather than treating it as one long travel video. I went through the complete footage, built the story across four episodes, handled the pacing and transitions, synced dialogue and voice-over, and colour graded the final edits so the four reels felt like one continuous journey."
     },
@@ -734,7 +735,7 @@ const DATA = {
       "title": "The Man and the Fish",
       "client": "Yacht Life Goa",
       "group": "series",
-      "src": "videos/asset_192.mp4",
+      "src": "asset_192.mp4",
       "poster": "asset_193.webp",
       "desc": "Edited the footage into a short narrative piece built around the interaction between a man, the sea and the fish. The edit focuses on selecting the moments that carry the story and creating a rhythm that feels more observational than like a conventional promotional reel."
     },
@@ -743,7 +744,7 @@ const DATA = {
       "title": "The Man and the Fish, With His Rod and Reel",
       "client": "Yacht Life Goa",
       "group": "series",
-      "src": "videos/asset_194.mp4",
+      "src": "asset_194.mp4",
       "poster": "asset_195.webp",
       "desc": "Edited a more focused version of the Man and the Fish story around the fishing experience itself. The aim was to let the footage and natural progression of the activity carry the piece rather than overloading it with effects or unnecessary transitions."
     },
@@ -752,7 +753,7 @@ const DATA = {
       "title": "The South Goa Voyage Film",
       "client": "Yacht Life Goa",
       "group": "series",
-      "src": "videos/asset_196.mp4",
+      "src": "asset_196.mp4",
       "poster": "asset_197.webp",
       "desc": "Edited the South Goa voyage footage into a longer-form travel film, bringing together the journey, locations and experience into one continuous story. The edit was structured to move between atmosphere and action so it feels like an experience rather than a collection of yacht shots."
     },
@@ -761,7 +762,7 @@ const DATA = {
       "title": "Instagram Reel",
       "client": "Yacht Life Goa",
       "group": "social",
-      "src": "videos/asset_198.mp4",
+      "src": "asset_198.mp4",
       "poster": "asset_199.webp",
       "desc": "Edited a short-form social reel for Yacht Life Goa with the focus on getting the strongest visual information across quickly. The edit was built around social-first pacing, selecting the most effective shots and keeping the experience understandable even without a long setup."
     },
@@ -770,7 +771,7 @@ const DATA = {
       "title": "Manali to Srinagar",
       "client": "Leon Nicholas",
       "group": "leon",
-      "src": "videos/asset_200.mp4",
+      "src": "asset_200.mp4",
       "poster": "asset_201.webp",
       "vertical": true,
       "desc": "Edited the Manali-to-Srinagar journey into a vertical travel film designed for social media. The edit focuses on the movement between locations and the changing landscape, keeping the pacing dynamic while allowing the stronger travel moments enough room to breathe."
@@ -780,7 +781,7 @@ const DATA = {
       "title": "Bike Tour Reel",
       "client": "Leon Nicholas × Xplorearth",
       "group": "leon",
-      "src": "videos/asset_202.mp4",
+      "src": "asset_202.mp4",
       "poster": "asset_203.webp",
       "vertical": false,
       "desc": "Edited a bike-tour reel around the movement and energy of the ride. The footage was cut to keep the journey moving while balancing riding sequences with location shots, giving the reel a sense of progression instead of feeling like disconnected clips."
@@ -790,7 +791,7 @@ const DATA = {
       "title": "Styling a Home",
       "client": "Shruti Tilve · Interior Stylist",
       "group": "shruti",
-      "src": "videos/asset_204.mp4",
+      "src": "asset_204.mp4",
       "poster": "asset_205.webp",
       "vertical": true,
       "desc": "Edited a vertical piece around the process of styling an interior space. The edit was structured to show the transformation through a combination of detail shots and wider frames, keeping the focus on the styling decisions rather than simply documenting the finished room."
@@ -800,7 +801,7 @@ const DATA = {
       "title": "Cut",
       "client": "Shruti Tilve · Interior Stylist",
       "group": "shruti",
-      "src": "videos/asset_206.mp4",
+      "src": "asset_206.mp4",
       "poster": "asset_207.webp",
       "vertical": true,
       "desc": "Created a short-form edit built around the idea of the cut itself, using the edit to control how the viewer experiences the space. The focus was on timing, shot selection and transitions rather than relying heavily on effects."
@@ -810,7 +811,7 @@ const DATA = {
       "title": "Types of Paper",
       "client": "Media Solution 365",
       "group": "ai",
-      "src": "videos/asset_208.mp4",
+      "src": "asset_208.mp4",
       "poster": "asset_209.webp",
       "vertical": true,
       "desc": "Edited an educational short-form video explaining different types of paper. The challenge was making information-heavy content easier to consume, so the edit was structured around clear visual changes and concise pacing suited to social media."
@@ -820,7 +821,7 @@ const DATA = {
       "title": "Types of Card",
       "client": "Media Solution 365",
       "group": "ai",
-      "src": "videos/asset_210.mp4",
+      "src": "asset_210.mp4",
       "poster": "asset_211.webp",
       "vertical": true,
       "desc": "Edited a short educational piece explaining different types of card. I structured the information so each material has enough visual space to register while keeping the overall video quick and easy to follow."
@@ -830,7 +831,7 @@ const DATA = {
       "title": "Print File Mistakes",
       "client": "Media Solution 365",
       "group": "ai",
-      "src": "videos/asset_212.mp4",
+      "src": "asset_212.mp4",
       "poster": "asset_213.webp",
       "vertical": true,
       "desc": "Edited an informational reel around common print-file mistakes. The focus was on making technical information feel simple and accessible through a clear sequence of points rather than turning the video into a long explanation."
@@ -840,7 +841,7 @@ const DATA = {
       "title": "KVE Motion Poster",
       "client": "KVE",
       "group": "motion",
-      "src": "videos/asset_214.mp4",
+      "src": "asset_214.mp4",
       "poster": "asset_215.webp",
       "vertical": true,
       "desc": "Created a motion-based poster for KVE, taking a static graphic and giving it movement so it could work as digital content. The animation was kept focused on the key visual and typography, using motion to add attention without distracting from the message."
@@ -850,7 +851,7 @@ const DATA = {
       "title": "CCTV Animation",
       "client": "Explainer",
       "group": "motion",
-      "src": "videos/asset_216.mp4",
+      "src": "asset_216.mp4",
       "poster": "asset_217.webp",
       "desc": "Created an animated explainer around CCTV, translating the information into a simple visual sequence. The focus was on making the subject easy to understand through movement and clear visual communication rather than relying entirely on text."
     }
@@ -892,7 +893,7 @@ const DATA = {
     {"title": "Pather Panchali", "dir": "Satyajit Ray", "year": "1955", "poster": "asset_223.webp", "kind": "film"},
     {"title": "Aparajito", "dir": "Satyajit Ray", "year": "1956", "poster": "asset_224.webp", "kind": "film"},
     {"title": "Maqbool", "dir": "Vishal Bhardwaj", "year": "2003", "poster": "asset_225.webp", "kind": "film"},
-    {"title": "The Salesman", "dir": "Asghar Farhadi", "year": "2016", "poster": "asset_226.webp", "kind": "film"},
+    {"title": "The Salesman", "dir": "Asghar Farhadi", "year": "2016", "poster": "asset_226.jpeg", "kind": "film"},
     {"title": "Village Rockstars", "dir": "Rima Das", "year": "2017", "poster": "asset_227.webp", "kind": "film"},
     {"title": "Udaan", "dir": "Vikramaditya Motwane", "year": "2010", "poster": "asset_228.webp", "kind": "film"},
     {"title": "Ghashiram Kotwal", "dir": "Yukt Film Cooperative", "year": "1976", "poster": "asset_229.webp", "kind": "film"},
@@ -921,213 +922,441 @@ const DATA = {
 };
 
 /* ---------- model ---------- */
-const CATS=DATA.collections.map(c=>({key:c.key,name:c.name,projects:c.projects}));
-CATS.push({key:"threed",name:"3D & Product",projects:DATA.threed.map(p=>({
-  id:p.id,title:p.title,client:p.type||"",cover:p.cover,pages:(p.photos||[]).slice(1),
-  desc:p.desc,palette:p.palette,model:p.model||null,heroKey:(p.photos||[])[0]}))});
-const ALL=[]; CATS.forEach(c=>c.projects.forEach(p=>ALL.push({...p,cat:c.name,catKey:c.key})));
-const img=k=>{
-  const val = DATA.images[k];
-  if(!val) return "";
+const CATS = (DATA.collections || []).map(c => ({ key: c.key, name: c.name, projects: c.projects || [] }));
+if (DATA.threed) {
+  CATS.push({
+    key: "threed",
+    name: "3D & Product",
+    projects: (DATA.threed || []).map(p => ({
+      id: p.id,
+      title: p.title,
+      client: p.type || "",
+      cover: p.cover,
+      pages: (p.photos || []).slice(1),
+      desc: p.desc,
+      palette: p.palette || [],
+      model: p.model || null,
+      heroKey: (p.photos || [])[0]
+    }))
+  });
+}
+
+const ALL = [];
+CATS.forEach(c => (c.projects || []).forEach(p => ALL.push({ ...p, cat: c.name, catKey: c.key })));
+const img = k => {
+  const val = (DATA.images && DATA.images[k]);
+  if (!val) return "";
   return val.startsWith("data:") ? val : ASSETS_BASE + val;
 };
 
-const blobCache={};
-async function playable(src){
-  if(!src.startsWith("data:"))return src;
-  if(blobCache[src])return blobCache[src];
-  const b=await (await fetch(src)).blob();
-  return blobCache[src]=URL.createObjectURL(b);
+const blobCache = {};
+async function playable(src) {
+  if (!src) return "";
+  const fullSrc = src.startsWith("data:") || src.startsWith("http") || src.startsWith("blob:") ? src : VIDEOS_BASE + src;
+  if (!fullSrc.startsWith("data:")) return fullSrc;
+  if (blobCache[fullSrc]) return blobCache[fullSrc];
+  const b = await (await fetch(fullSrc)).blob();
+  return blobCache[fullSrc] = URL.createObjectURL(b);
 }
 
 /* ---------- hero stats + marquee ---------- */
-document.getElementById("stats").innerHTML=[[ALL.length,"design projects"],[DATA.videos.length,"films & reels"],
- [CATS.length,"disciplines"],[DATA.poems.length,"poems"]]
- .map(s=>`<div class="stat"><b>${s[0]}</b><span>${s[1]}</span></div>`).join("");
-document.getElementById("mq").innerHTML=
-  (CATS.map(c=>c.name).concat(["Aurangabad, MH","Open for work"]).map(w=>`<b>${w}</b>`).join("")).repeat(2);
+const statsEl = document.getElementById("stats");
+if (statsEl) {
+  statsEl.innerHTML = [
+    [ALL.length, "design projects"],
+    [(DATA.videos || []).length, "films & reels"],
+    [CATS.length, "disciplines"],
+    [(DATA.poems || []).length, "poems"]
+  ].map(s => `<div class="stat"><b>${s[0]}</b><span>${s[1]}</span></div>`).join("");
+}
+
+const mqEl = document.getElementById("mq");
+if (mqEl) {
+  mqEl.innerHTML = (CATS.map(c => c.name).concat(["Aurangabad, MH", "Open for work"]).map(w => `<b>${w}</b>`).join("")).repeat(2);
+}
 
 /* ---------- about ---------- */
-document.getElementById("bio").innerHTML=
-  DATA.about.split("\n").filter(Boolean).map(t=>`<p>${t}</p>`).join("")+
-  `<div class="skl">${DATA.skills.map(s=>`<span>${s}</span>`).join("")}</div>`;
+const bioEl = document.getElementById("bio");
+if (bioEl && DATA.about) {
+  bioEl.innerHTML =
+    DATA.about.split("\n").filter(Boolean).map(t => `<p>${t}</p>`).join("") +
+    `<div class="skl">${(DATA.skills || []).map(s => `<span>${s}</span>`).join("")}</div>`;
+}
 
 /* 8 highlights, one per discipline */
-const HL=["menus","packaging","sundowner","ra11","brochures","standees","social","threed"];
-document.getElementById("highlights").innerHTML=HL.map(k=>{
-  const c=CATS.find(x=>x.key===k); if(!c||!c.projects.length)return "";
-  const p=c.projects[0], hero=p.heroKey||p.cover;
-  return `<button class="hitile" data-jump="${k}" title="${c.name}: ${p.title}">
-    <img src="${img(hero)}" alt="${p.title}" loading="lazy"></button>`;}).join("");
-document.querySelectorAll("[data-jump]").forEach(b=>b.addEventListener("click",()=>{
-  setFilter(b.dataset.jump); document.getElementById("work").scrollIntoView({behavior:"smooth"});}));
+const HL = ["menus", "packaging", "sundowner", "ra11", "brochures", "standees", "social", "threed"];
+const hlEl = document.getElementById("highlights");
+if (hlEl) {
+  hlEl.innerHTML = HL.map(k => {
+    const c = CATS.find(x => x.key === k);
+    if (!c || !c.projects.length) return "";
+    const p = c.projects[0], hero = p.heroKey || p.cover;
+    return `<button class="hitile" data-jump="${k}" title="${c.name}: ${p.title}">
+      <img src="${img(hero)}" alt="${p.title}" loading="lazy"></button>`;
+  }).join("");
+}
+
+document.querySelectorAll("[data-jump]").forEach(b => b.addEventListener("click", () => {
+  setFilter(b.dataset.jump);
+  const workEl = document.getElementById("work");
+  if (workEl) workEl.scrollIntoView({ behavior: "smooth" });
+}));
 
 /* ---------- three panels ---------- */
-document.getElementById("panels").innerHTML=[
- ["01","Design work",`${ALL.length} projects across ${CATS.length} disciplines`,"work"],
- ["02","Video",`${DATA.videos.length} films, reels and motion pieces`,"video"],
- ["03","Poems",`${DATA.poems.length} pieces in Hindi and Urdu`,"poems"],
-].map(([n,nm,ct,go])=>
- `<button class="panel" data-go="${go}"><span class="num">${n}</span>
-   <span><span class="nm">${nm}</span><span class="ct">${ct}</span></span></button>`).join("");
-document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>
-  document.getElementById(b.dataset.go).scrollIntoView({behavior:"smooth"})));
+const panelsEl = document.getElementById("panels");
+if (panelsEl) {
+  panelsEl.innerHTML = [
+    ["01", "Design work", `${ALL.length} projects across ${CATS.length} disciplines`, "work"],
+    ["02", "Video", `${(DATA.videos || []).length} films, reels and motion pieces`, "video"],
+    ["03", "Poems", `${(DATA.poems || []).length} pieces in Hindi and Urdu`, "poems"]
+  ].map(([n, nm, ct, go]) =>
+    `<button class="panel" data-go="${go}"><span class="num">${n}</span>
+     <span><span class="nm">${nm}</span><span class="ct">${ct}</span></span></button>`
+  ).join("");
+}
+
+document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => {
+  const target = document.getElementById(b.dataset.go);
+  if (target) target.scrollIntoView({ behavior: "smooth" });
+}));
 
 /* ---------- design grid with inline detail ---------- */
-const chipBox=document.getElementById("chips"), grid=document.getElementById("workGrid");
-let current="all", visible=[], openCard=null, openPanel=null;
-function chips(){chipBox.innerHTML="";
-  const mk=(k,l)=>{const b=document.createElement("button");b.className="chip"+(current===k?" on":"");
-    b.textContent=l;b.addEventListener("click",()=>setFilter(k));chipBox.appendChild(b);};
-  mk("all","Everything"); CATS.forEach(c=>mk(c.key,c.name));}
-function setFilter(k){current=k;chips();paint();}
-function closeDetail(){
-  if(openPanel){openPanel.remove();openPanel=null;}
-  if(openCard){openCard.classList.remove("active");openCard=null;}
+const chipBox = document.getElementById("chips"), grid = document.getElementById("workGrid");
+let current = "all", visible = [], openCard = null, openPanel = null;
+
+function chips() {
+  if (!chipBox) return;
+  chipBox.innerHTML = "";
+  const mk = (k, l) => {
+    const b = document.createElement("button");
+    b.className = "chip" + (current === k ? " on" : "");
+    b.textContent = l;
+    b.addEventListener("click", () => setFilter(k));
+    chipBox.appendChild(b);
+  };
+  mk("all", "Everything");
+  CATS.forEach(c => mk(c.key, c.name));
 }
-function paint(){
+
+function setFilter(k) {
+  current = k;
+  chips();
+  paint();
+}
+
+function closeDetail() {
+  if (openPanel) { openPanel.remove(); openPanel = null; }
+  if (openCard) { openCard.classList.remove("active"); openCard = null; }
+}
+
+function paint() {
   closeDetail();
-  visible=current==="all"?ALL:ALL.filter(p=>p.catKey===current);
-  document.getElementById("workCount").textContent=`${visible.length} of ${ALL.length} pieces`;
-  grid.innerHTML="";
-  visible.forEach(p=>{
-    const hero=p.heroKey||p.cover;
-    const b=document.createElement("button"); b.className="card"; b.type="button";
-    b.innerHTML=`<div class="top"><span class="tag">${p.cat}</span>
+  visible = current === "all" ? ALL : ALL.filter(p => p.catKey === current);
+  const cntEl = document.getElementById("workCount");
+  if (cntEl) cntEl.textContent = `${visible.length} of ${ALL.length} pieces`;
+  if (!grid) return;
+  grid.innerHTML = "";
+  visible.forEach(p => {
+    const hero = p.heroKey || p.cover;
+    const b = document.createElement("button");
+    b.className = "card";
+    b.type = "button";
+    b.innerHTML = `<div class="top"><span class="tag">${p.cat}</span>
         <img src="${img(hero)}" alt="${p.title}" loading="lazy"></div>
-      <div class="bot"><span><h3>${p.title}</h3>${p.client?`<span class="who">${p.client}</span>`:""}</span><span class="arw">&#8599;</span></div>`;
-    b.addEventListener("click",()=>toggleDetail(b,p));
-    grid.appendChild(b); obs.observe(b);});
+      <div class="bot"><span><h3>${p.title}</h3>${p.client ? `<span class="who">${p.client}</span>` : ""}</span><span class="arw">&#8599;</span></div>`;
+    b.addEventListener("click", () => toggleDetail(b, p));
+    grid.appendChild(b);
+    obs.observe(b);
+  });
 }
-function toggleDetail(card,p){
-  if(openCard===card){closeDetail();return;}
+
+function toggleDetail(card, p) {
+  if (openCard === card) { closeDetail(); return; }
   closeDetail();
-  const heroK=p.mockup||p.heroKey||p.cover;
-  const list=(p.pages||[]).filter(k=>k!==heroK);
-  const imgs=p.model?list.slice():[heroK].concat(list);
-  const d=document.createElement("div"); d.className="detail";
-  d.innerHTML=`
+  const heroK = p.mockup || p.heroKey || p.cover;
+  const list = (p.pages || []).filter(k => k !== heroK);
+  const imgs = p.model ? list.slice() : [heroK].concat(list);
+  const d = document.createElement("div");
+  d.className = "detail";
+  d.innerHTML = `
    <div class="dhead">
-     <div><div class="cli">${p.cat}${p.client?" &nbsp;/&nbsp; "+p.client:""}</div><h3>${p.title}</h3></div>
+     <div><div class="cli">${p.cat}${p.client ? " &nbsp;/&nbsp; " + p.client : ""}</div><h3>${p.title}</h3></div>
      <button class="x">Close</button>
    </div>
    <div class="dbody">
      <div class="txt">
-       <h5>About this design</h5><p>${p.desc||""}</p>
-       ${(p.palette&&p.palette.length)?`<div class="pal"><span class="pl">Palette</span>${p.palette.map(c=>`<span style="background:${c}"></span>`).join("")}</div>`:""}
+       <h5>About this design</h5><p>${p.desc || ""}</p>
+       ${(p.palette && p.palette.length) ? `<div class="pal"><span class="pl">Palette</span>${p.palette.map(c => `<span style="background:${c}"></span>`).join("")}</div>` : ""}
      </div>
      <div>
-       ${p.model?`<div class="stlbox" id="stlNow"><span class="hint">Drag to rotate, scroll to zoom</span></div>`:""}
-       ${imgs.length?`<div class="tiles">${imgs.map((k,i)=>
+       ${p.model ? `<div class="stlbox" id="stlNow"><span class="hint">Drag to rotate, scroll to zoom</span></div>` : ""}
+       ${imgs.length ? `<div class="tiles">${imgs.map((k, i) =>
          `<button class="tile" data-i="${i}"><div class="box"><img src="${img(k)}" alt="${p.title}" loading="lazy"></div>
-          <div class="cap"><b>${p.client||p.title}</b><i>${p.title}</i></div></button>`).join("")}</div>`:""}
+          <div class="cap"><b>${p.client || p.title}</b><i>${p.title}</i></div></button>`).join("")}</div>` : ""}
      </div>
    </div>`;
   card.after(d);
-  openCard=card; openPanel=d; card.classList.add("active");
-  d.querySelector(".x").addEventListener("click",()=>{closeDetail();card.scrollIntoView({behavior:"smooth",block:"center"});});
-  d.querySelectorAll(".tile").forEach(t=>t.addEventListener("click",()=>openLB(imgs.map(img),+t.dataset.i)));
-  if(p.model) initSTL(d.querySelector("#stlNow"),p.model);
-  d.scrollIntoView({behavior:"smooth",block:"nearest"});
+  openCard = card;
+  openPanel = d;
+  card.classList.add("active");
+  d.querySelector(".x").addEventListener("click", () => {
+    closeDetail();
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+  d.querySelectorAll(".tile").forEach(t => t.addEventListener("click", () => openLB(imgs.map(img), +t.dataset.i)));
+  if (p.model) initSTL(d.querySelector("#stlNow"), p.model);
+  d.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
-const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");obs.unobserve(e.target);}}),{rootMargin:"70px"});
+
+const obs = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) {
+    e.target.classList.add("in");
+    obs.unobserve(e.target);
+  }
+}), { rootMargin: "70px" });
 
 /* ---------- video sections, inline player ---------- */
-const GROUPS=[["series","The South Goa Voyage"],["leon","Leon Nicholas"],["shruti","Shruti Tilve"],
-              ["social","Social"],["ai","Made with AI"],["motion","Motion Graphics"]];
-const fs=document.getElementById("filmSections");
-let openV=null, openVP=null;
-function closeV(){if(openVP){openVP.remove();openVP=null;} if(openV){openV.classList.remove("active");openV=null;}}
-GROUPS.forEach(([key,label])=>{
-  const items=DATA.videos.filter(v=>v.group===key);
-  if(!items.length)return;
-  const h=document.createElement("div"); h.className="vsub"; h.textContent=`${label} · ${items.length}`;
-  fs.appendChild(h);
-  const g=document.createElement("div"); g.className="vgrid"; fs.appendChild(g);
-  items.forEach(v=>{
-    const b=document.createElement("button"); b.className="card vid"; b.type="button";
-    b.innerHTML=`<div class="top"><img src="${ASSETS_BASE + v.poster}" alt="${v.title}" loading="lazy"><span class="play">&#9654;</span></div>
-      <div class="bot"><span><h3>${v.title}</h3>${v.client?`<span class="who">${v.client}</span>`:""}</span><span class="arw">&#8599;</span></div>`;
-    b.addEventListener("click",async()=>{
-      if(openV===b){closeV();return;}
-      closeV();
-      const d=document.createElement("div"); d.className="detail vd";
-      d.innerHTML=`<div class="dhead"><div><div class="cli">${label}${v.client?" &nbsp;/&nbsp; "+v.client:""}</div><h3>${v.title}</h3></div>
-        <button class="x">Close</button></div>
-        ${v.desc?`<div class="txt" style="margin-bottom:16px;max-width:70ch"><h5>About this edit</h5><p>${v.desc}</p></div>`:""}<div class="vidbox${v.vertical?" tall":""}"><video id="vNow" poster="${v.poster ? ASSETS_BASE + v.poster : ""}" controls playsinline preload="metadata"></video></div>`;
-      b.after(d); openV=b; openVP=d; b.classList.add("active");
-      d.querySelector(".x").addEventListener("click",()=>{closeV();b.scrollIntoView({behavior:"smooth",block:"center"});});
-      d.scrollIntoView({behavior:"smooth",block:"nearest"});
-      const el=d.querySelector("#vNow");
-      try{ el.src=await playable(v.src); el.play().catch(()=>{}); }catch(e){}
+const GROUPS = [
+  ["series", "The South Goa Voyage"],
+  ["leon", "Leon Nicholas"],
+  ["shruti", "Shruti Tilve"],
+  ["social", "Social"],
+  ["ai", "Made with AI"],
+  ["motion", "Motion Graphics"]
+];
+
+const fsEl = document.getElementById("filmSections");
+let openV = null, openVP = null;
+
+function closeV() {
+  if (openVP) { openVP.remove(); openVP = null; }
+  if (openV) { openV.classList.remove("active"); openV = null; }
+}
+
+if (fsEl) {
+  GROUPS.forEach(([key, label]) => {
+    const items = (DATA.videos || []).filter(v => v.group === key);
+    if (!items.length) return;
+    const h = document.createElement("div");
+    h.className = "vsub";
+    h.textContent = `${label} · ${items.length}`;
+    fsEl.appendChild(h);
+    const g = document.createElement("div");
+    g.className = "vgrid";
+    fsEl.appendChild(g);
+    items.forEach(v => {
+      const b = document.createElement("button");
+      b.className = "card vid";
+      b.type = "button";
+      const posterSrc = v.poster ? (v.poster.startsWith('data:') ? v.poster : ASSETS_BASE + v.poster) : '';
+      b.innerHTML = `<div class="top"><img src="${posterSrc}" alt="${v.title}" loading="lazy"><span class="play">&#9654;</span></div>
+        <div class="bot"><span><h3>${v.title}</h3>${v.client ? `<span class="who">${v.client}</span>` : ""}</span><span class="arw">&#8599;</span></div>`;
+      b.addEventListener("click", async () => {
+        if (openV === b) { closeV(); return; }
+        closeV();
+        const d = document.createElement("div");
+        d.className = "detail vd";
+        d.innerHTML = `<div class="dhead"><div><div class="cli">${label}${v.client ? " &nbsp;/&nbsp; " + v.client : ""}</div><h3>${v.title}</h3></div>
+          <button class="x">Close</button></div>
+          ${v.desc ? `<div class="txt" style="margin-bottom:16px;max-width:70ch"><h5>About this edit</h5><p>${v.desc}</p></div>` : ""}<div class="vidbox${v.vertical ? " tall" : ""}"><video id="vNow" poster="${posterSrc}" controls playsinline preload="metadata"></video></div>`;
+        b.after(d);
+        openV = b;
+        openVP = d;
+        b.classList.add("active");
+        d.querySelector(".x").addEventListener("click", () => {
+          closeV();
+          b.scrollIntoView({ behavior: "smooth", block: "center" });
+        });
+        d.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        const el = d.querySelector("#vNow");
+        try {
+          el.src = await playable(v.src);
+          el.play().catch(() => {});
+        } catch (e) {}
+      });
+      g.appendChild(b);
+      obs.observe(b);
     });
-    g.appendChild(b); obs.observe(b);});
-});
-document.getElementById("filmCount").textContent=`${DATA.videos.length} pieces`;
+  });
+}
+
+const filmCntEl = document.getElementById("filmCount");
+if (filmCntEl) filmCntEl.textContent = `${(DATA.videos || []).length} pieces`;
 
 /* ---------- poems / contact ---------- */
-document.getElementById("poemGrid").innerHTML=DATA.poems.map(p=>
-  `<div class="sheet"><div class="pl">a poem</div><h3>${p.title}</h3><pre>${p.body}</pre></div>`).join("");
-document.getElementById("links").innerHTML=DATA.contact.map(c=>
-  `<a href="${c.href}"${c.href.startsWith("http")?' target="_blank" rel="noopener"':""}>
-     <span><span class="k">${c.label}</span><span class="v">${c.val}</span></span><span class="v" style="font-size:17px">&#8599;</span></a>`).join("");
+const poemGridEl = document.getElementById("poemGrid");
+if (poemGridEl) {
+  poemGridEl.innerHTML = (DATA.poems || []).map(p =>
+    `<div class="sheet"><div class="pl">a poem</div><h3>${p.title}</h3><pre>${p.body}</pre></div>`
+  ).join("");
+}
+
+const linksEl = document.getElementById("links");
+if (linksEl) {
+  linksEl.innerHTML = (DATA.contact || []).map(c =>
+    `<a href="${c.href}"${c.href.startsWith("http") ? ' target="_blank" rel="noopener"' : ""}>
+       <span><span class="k">${c.label}</span><span class="v">${c.val}</span></span><span class="v" style="font-size:17px">&#8599;</span></a>`
+  ).join("");
+}
 
 /* ---------- lightbox ---------- */
-const lb=document.getElementById("lb"), lbImg=document.getElementById("lbImg"), lbCnt=document.getElementById("lbCnt");
-let lbList=[], lbI=0;
-function openLB(list,i){lbList=list;lbI=i;showLB();lb.classList.add("open");document.body.style.overflow="hidden";}
-function showLB(){lbImg.src=lbList[lbI];lbCnt.textContent=`${lbI+1} / ${lbList.length}`;
-  const many=lbList.length>1;
-  document.getElementById("lbP").style.display=many?"block":"none";
-  document.getElementById("lbN").style.display=many?"block":"none";}
-function lbStep(d){lbI=(lbI+d+lbList.length)%lbList.length;showLB();}
-function closeLB(){lb.classList.remove("open");document.body.style.overflow="";}
-document.getElementById("lbX").addEventListener("click",closeLB);
-document.getElementById("lbP").addEventListener("click",e=>{e.stopPropagation();lbStep(-1);});
-document.getElementById("lbN").addEventListener("click",e=>{e.stopPropagation();lbStep(1);});
-lb.addEventListener("click",e=>{if(e.target===lb||e.target===lbImg)closeLB();});
-addEventListener("keydown",e=>{
-  if(lb.classList.contains("open")){
-    if(e.key==="Escape")closeLB();
-    if(e.key==="ArrowRight")lbStep(1);
-    if(e.key==="ArrowLeft")lbStep(-1);
-    return;}
-  if(e.key==="Escape"){closeDetail();closeV();}
+const lb = document.getElementById("lb"),
+  lbImg = document.getElementById("lbImg"),
+  lbCnt = document.getElementById("lbCnt");
+let lbList = [], lbI = 0;
+
+function openLB(list, i) {
+  lbList = list;
+  lbI = i;
+  showLB();
+  if (lb) {
+    lb.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+}
+
+function showLB() {
+  if (!lbImg || !lbCnt) return;
+  lbImg.src = lbList[lbI];
+  lbCnt.textContent = `${lbI + 1} / ${lbList.length}`;
+  const many = lbList.length > 1;
+  const pBtn = document.getElementById("lbP");
+  const nBtn = document.getElementById("lbN");
+  if (pBtn) pBtn.style.display = many ? "block" : "none";
+  if (nBtn) nBtn.style.display = many ? "block" : "none";
+}
+
+function lbStep(d) {
+  lbI = (lbI + d + lbList.length) % lbList.length;
+  showLB();
+}
+
+function closeLB() {
+  if (lb) {
+    lb.classList.remove("open");
+    document.body.style.overflow = "";
+  }
+}
+
+const lbX = document.getElementById("lbX");
+if (lbX) lbX.addEventListener("click", closeLB);
+const lbP = document.getElementById("lbP");
+if (lbP) lbP.addEventListener("click", e => { e.stopPropagation(); lbStep(-1); });
+const lbN = document.getElementById("lbN");
+if (lbN) lbN.addEventListener("click", e => { e.stopPropagation(); lbStep(1); });
+
+if (lb) {
+  lb.addEventListener("click", e => {
+    if (e.target === lb || e.target === lbImg) closeLB();
+  });
+}
+
+addEventListener("keydown", e => {
+  if (lb && lb.classList.contains("open")) {
+    if (e.key === "Escape") closeLB();
+    if (e.key === "ArrowRight") lbStep(1);
+    if (e.key === "ArrowLeft") lbStep(-1);
+    return;
+  }
+  if (e.key === "Escape") {
+    closeDetail();
+    closeV();
+  }
 });
 
 /* ---------- STL ---------- */
-function parseSTL(buf){
-  const dv=new DataView(buf),pos=[],n=dv.getUint32(80,true);
-  if(84+n*50===buf.byteLength){let o=84;
-    for(let i=0;i<n;i++){o+=12;for(let v=0;v<3;v++){pos.push(dv.getFloat32(o,true),dv.getFloat32(o+4,true),dv.getFloat32(o+8,true));o+=12;}o+=2;}
-  } else {const t=new TextDecoder().decode(new Uint8Array(buf));
-    const re=/vertex\s+([-\d.eE+]+)\s+([-\d.eE+]+)\s+([-\d.eE+]+)/g;let m;while((m=re.exec(t)))pos.push(+m[1],+m[2],+m[3]);}
-  const g=new THREE.BufferGeometry(); g.setAttribute("position",new THREE.Float32BufferAttribute(pos,3)); return g;
-}
-async function initSTL(box,url){
-  if(!box||!window.THREE)return;
-  const scene=new THREE.Scene(), cam=new THREE.PerspectiveCamera(42,1,.1,9000);
-  const rend=new THREE.WebGLRenderer({antialias:true,alpha:true});
-  rend.setPixelRatio(Math.min(2,devicePixelRatio)); box.appendChild(rend.domElement);
-  scene.add(new THREE.AmbientLight(0xffffff,.85));
-  const l1=new THREE.DirectionalLight(0xffffff,.8); l1.position.set(1,1.3,1); scene.add(l1);
-  const l2=new THREE.DirectionalLight(0xffffff,.3); l2.position.set(-1,.4,-1); scene.add(l2);
-  const g=new THREE.Group(); scene.add(g);
-  let dist=200,rot={x:-.5,y:.4},auto=true,down=false,px,py;
-  try{const geo=parseSTL(await fetch(url).then(r=>r.arrayBuffer()));
-    geo.computeVertexNormals();geo.center();geo.computeBoundingSphere();
-    dist=(geo.boundingSphere.radius||50)*3.1;
-    const mesh=new THREE.Mesh(geo,new THREE.MeshStandardMaterial({color:0x0a5a50,roughness:.85,metalness:.05}));
-    mesh.rotation.x=-Math.PI/2; g.add(mesh);}catch(e){return;}
-  const size=()=>{const W=box.clientWidth,H=box.clientHeight;rend.setSize(W,H);cam.aspect=W/H;cam.updateProjectionMatrix();};
-  size(); new ResizeObserver(size).observe(box);
-  const dom=rend.domElement;
-  dom.addEventListener("pointerdown",e=>{down=true;auto=false;px=e.clientX;py=e.clientY;});
-  addEventListener("pointerup",()=>down=false);
-  addEventListener("pointermove",e=>{if(!down)return;rot.y+=(e.clientX-px)*.01;rot.x+=(e.clientY-py)*.01;px=e.clientX;py=e.clientY;});
-  dom.addEventListener("wheel",e=>{e.preventDefault();dist*=1+Math.sign(e.deltaY)*.12;},{passive:false});
-  (function loop(){requestAnimationFrame(loop);if(auto)rot.y+=.004;g.rotation.x=rot.x;g.rotation.y=rot.y;
-    cam.position.set(0,0,dist);cam.lookAt(0,0,0);rend.render(scene,cam);})();
+function parseSTL(buf) {
+  const dv = new DataView(buf), pos = [], n = dv.getUint32(80, true);
+  if (84 + n * 50 === buf.byteLength) {
+    let o = 84;
+    for (let i = 0; i < n; i++) {
+      o += 12;
+      for (let v = 0; v < 3; v++) {
+        pos.push(dv.getFloat32(o, true), dv.getFloat32(o + 4, true), dv.getFloat32(o + 8, true));
+        o += 12;
+      }
+      o += 2;
+    }
+  } else {
+    const t = new TextDecoder().decode(new Uint8Array(buf));
+    const re = /vertex\s+([-\d.eE+]+)\s+([-\d.eE+]+)\s+([-\d.eE+]+)/g;
+    let m;
+    while ((m = re.exec(t))) pos.push(+m[1], +m[2], +m[3]);
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3));
+  return g;
 }
 
-chips(); paint();
+async function initSTL(box, url) {
+  if (!box || !window.THREE) return;
+  const scene = new THREE.Scene(),
+    cam = new THREE.PerspectiveCamera(42, 1, 0.1, 9000);
+  const rend = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  rend.setPixelRatio(Math.min(2, devicePixelRatio));
+  box.appendChild(rend.domElement);
+  scene.add(new THREE.AmbientLight(0xffffff, 0.85));
+  const l1 = new THREE.DirectionalLight(0xffffff, 0.8);
+  l1.position.set(1, 1.3, 1);
+  scene.add(l1);
+  const l2 = new THREE.DirectionalLight(0xffffff, 0.3);
+  l2.position.set(-1, 0.4, -1);
+  scene.add(l2);
+  const g = new THREE.Group();
+  scene.add(g);
+  let dist = 200, rot = { x: -0.5, y: 0.4 }, auto = true, down = false, px, py;
+  try {
+    const geo = parseSTL(await fetch(url).then(r => r.arrayBuffer()));
+    geo.computeVertexNormals();
+    geo.center();
+    geo.computeBoundingSphere();
+    dist = (geo.boundingSphere.radius || 50) * 3.1;
+    const mesh = new THREE.Mesh(
+      geo,
+      new THREE.MeshStandardMaterial({ color: 0x0a5a50, roughness: 0.85, metalness: 0.05 })
+    );
+    mesh.rotation.x = -Math.PI / 2;
+    g.add(mesh);
+  } catch (e) {
+    return;
+  }
+  const size = () => {
+    const W = box.clientWidth, H = box.clientHeight;
+    rend.setSize(W, H);
+    cam.aspect = W / H;
+    cam.updateProjectionMatrix();
+  };
+  size();
+  new ResizeObserver(size).observe(box);
+  const dom = rend.domElement;
+  dom.addEventListener("pointerdown", e => {
+    down = true;
+    auto = false;
+    px = e.clientX;
+    py = e.clientY;
+  });
+  addEventListener("pointerup", () => down = false);
+  addEventListener("pointermove", e => {
+    if (!down) return;
+    rot.y += (e.clientX - px) * 0.01;
+    rot.x += (e.clientY - py) * 0.01;
+    px = e.clientX;
+    py = e.clientY;
+  });
+  dom.addEventListener("wheel", e => {
+    e.preventDefault();
+    dist *= 1 + Math.sign(e.deltaY) * 0.12;
+  }, { passive: false });
+  (function loop() {
+    requestAnimationFrame(loop);
+    if (auto) rot.y += 0.004;
+    g.rotation.x = rot.x;
+    g.rotation.y = rot.y;
+    cam.position.set(0, 0, dist);
+    cam.lookAt(0, 0, 0);
+    rend.render(scene, cam);
+  })();
+}
+
+chips();
+paint();
